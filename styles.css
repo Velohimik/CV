@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+
+body {
+  background-color: #dde7f1;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.header {
+  font-family: "Neonderthaw", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: darkblue;
+}
+
+.info {
+  display: flex;
+  block-size: auto;
+  margin-bottom: 50px;
+  background-color: bl;
+}
+
+.info-text {
+  border-radius: 30px;
+  padding-right: 150px;
+  margin: auto;
+  background-color: rgb(235, 235, 225);
+}
+
+.info-text h2 {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.socials {
+  text-align: center;
+  word-spacing: 80px;
+  margin-bottom: 20px;
+}
+
+.socials h2 {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(207, 195, 187);
+  padding: 1px 20px;
+  border-radius: 30px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.education {
+  background-color: papayawhip;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.experience {
+  margin-bottom: 20px;
+  background-color: lightyellow;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.experience th,
+td {
+  padding: 5px;
+  margin: 0px;
+  border: 2px solid black;
+}
+
+.additional {
+  background-color: lightskyblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  background-color: lightpink;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.add-info {
+  background-color: linen;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.form h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.group label {
+  display: block;
+  font-family: inherit;
+}
+
+.group input,
+textarea {
+  border: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: inherit;
+  border-bottom: 1px solid grey;
+  background-color: inherit;
+  outline: none;
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+}
+
+.group {
+  margin-right: 0;
+  width: 100%;
+}
+
+.input-group > .group:first-child {
+  margin-right: 20px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+  font-family: inherit;
+  cursor: pointer;
+  position: relative;
+  margin: auto;
+}
+
+.button:hover {
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.btn-container {
+  display: flex;
+}
